@@ -1,0 +1,23 @@
+[
+  {
+    "id": "microservice-architecture",
+    "keywords": ["microservice", "architecture", "service design", "distributed"],
+    "title": "Microservice Architecture Design",
+    "prompt": "Explain microservice architecture patterns and best practices. Include service decomposition strategies, communication patterns (sync/async), data management, deployment considerations, monitoring, and common pitfalls to avoid.",
+    "description": "Comprehensive guide to microservice architecture"
+  },
+  {
+    "id": "database-design",
+    "keywords": ["database", "schema", "db design", "sql"],
+    "title": "Database Schema Design",
+    "prompt": "Guide me through designing an efficient database schema. Include normalization principles, indexing strategies, performance considerations, scalability patterns, and migration best practices. Consider both relational and NoSQL approaches.",
+    "description": "Best practices for database schema design"
+  },
+  {
+    "id": "error-handling",
+    "keywords": ["error handling", "exception", "error management"],
+    "title": "Error Handling Strategies",
+    "prompt": "Provide comprehensive error handling strategies for backend applications. Include exception hierarchies, logging practices, user-friendly error messages, retry mechanisms, circuit breakers, and monitoring considerations.",
+    "description": "Robust error handling implementation guide"
+  }
+]

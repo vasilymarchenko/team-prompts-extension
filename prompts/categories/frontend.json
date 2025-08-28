@@ -1,0 +1,16 @@
+[
+  {
+    "id": "responsive-design",
+    "keywords": ["responsive", "mobile", "css", "layout"],
+    "title": "Responsive Design Implementation",
+    "prompt": "Guide me through implementing responsive web design. Include CSS Grid and Flexbox usage, breakpoint strategies, mobile-first approach, accessibility considerations, and performance optimization for different screen sizes.",
+    "description": "Modern responsive design techniques"
+  },
+  {
+    "id": "state-management",
+    "keywords": ["state management", "redux", "context", "global state"],
+    "title": "Frontend State Management",
+    "prompt": "Explain state management patterns for frontend applications. Compare different approaches (Redux, Context API, Zustand), when to use each, best practices for state structure, and performance considerations.",
+    "description": "Comprehensive state management guide"
+  }
+]

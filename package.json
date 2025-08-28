@@ -10,13 +10,21 @@
   "categories": [
     "Other"
   ],
-  
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "team-prompts.helloWorld",
-        "title": "Hello World"
+        "command": "teamPrompts.insert",
+        "title": "Team Prompts: Insert"
+      }
+    ],
+    "chatParticipants": [
+      {
+        "id": "team-prompts.participant",
+        "name": "TeamPrompts",
+        "fullName": "Team Prompts",
+        "description": "Insert or run a reusable team prompt",
+        "isSticky": false
       }
     ]
   },
@@ -37,7 +45,7 @@
   "devDependencies": {
     "@types/mocha": "^10.0.10",
     "@types/node": "22.x",
-  "@types/vscode": "^1.99.0",
+    "@types/vscode": "^1.99.0",
     "@typescript-eslint/eslint-plugin": "^8.39.0",
     "@typescript-eslint/parser": "^8.39.0",
     "@vscode/test-cli": "^0.0.11",
